@@ -4,19 +4,19 @@
     'name': 'Import pain002',
     'version': '11.0.0.0.0',
     'license': 'AGPL-3',
-    'author': 'Monzione Marco, Odoo Community Association (OCA)',
+    'author': 'Compassion CH, Odoo Community Association (OCA)',
     'website': 'https://www.compassion.ch',
     'category': 'Banking addons',
     'depends': [
         'account_payment_order',
         'account_bank_statement_import_camt_oca',  # oca_addons/bank-payment
-        'account_payment_line_cancel',
+        'account_payment_return_import_sepa_pain',
+            # oca_addons/account-payment
+        'l10n_ch_pain_direct_debit',
+        'l10n_ch_pain_credit_transfer'
     ],
-    'data': [
-        'wizards/import_payment_return_wizard_view.xml',
+    'demo': [
+        'demo/demo.yml'
     ],
-    # 'demo': [
-    #     'test_files/test_data.yml',
-    # ],
-    'installable': True,
+    'installable': True
 }
