@@ -73,7 +73,7 @@
   !record {model: account.payment.mode, id: dd_pay_mode_xml_dd, view: False}:
     bank_account_link: fixed
     fixed_journal_id: dd_account_journal_xml_dd
-    name: 'DD XML'
+    name: 'XML DD'
     active: True
     payment_method_id: export_sepa_dd
     payment_order_ok: True

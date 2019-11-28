@@ -59,7 +59,7 @@
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 -
   !record {model: account.payment.mode, id: payment_mode_outbound_sepa_ct_ch, view: False}:
-    name: 'Credit Transfer to suppliers'
+    name: 'XML CT'
     company_id: base.main_company
     bank_account_link: fixed
     fixed_journal_id: account_journal_xml_ct

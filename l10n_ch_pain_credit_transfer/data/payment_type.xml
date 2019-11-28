@@ -7,8 +7,8 @@
 -->
 <odoo>
     <record id="export_sepa_ct_ch" model="account.payment.method">
-        <field name="name">Credit Transfer to Supplier</field>
-        <field name="code">sepa.ch.credit_transfer</field>
+        <field name="name">XML Credit Transfer</field>
+        <field name="code">sepa_credit_transfer</field>
         <field name="pain_version">pain.001.001.03.ch.02</field>
         <field name="payment_type">outbound</field>
         <field name="bank_account_required">True</field>
