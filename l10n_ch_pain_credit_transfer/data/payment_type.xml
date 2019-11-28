@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 Compassion (http://www.compassion.ch)
+  Copyright (C) 2017 brain-tec AG (http://www.braintec-group.com)
+  @author: Cyril Sester <cyril.sester@outlook.com>
+  The licence is in the file __openerp__.py
+-->
+<odoo>
+    <record id="export_sepa_ct_ch" model="account.payment.method">
+        <field name="name">Credit Transfer to Supplier</field>
+        <field name="code">sepa.ch.credit_transfer</field>
+        <field name="pain_version">pain.001.001.03.ch.02</field>
+        <field name="payment_type">outbound</field>
+        <field name="bank_account_required">True</field>
+        <field name="mandate_required">False</field>
+    </record>
+</odoo>

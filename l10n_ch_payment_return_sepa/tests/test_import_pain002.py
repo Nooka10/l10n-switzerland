@@ -7,7 +7,7 @@ import time
 class TestImportPain002(TransactionCase):
 
     def import_file_pain002(self):
-        test_file_path = get_module_resource('l10n_ch_import_pain002',
+        test_file_path = get_module_resource('l10n_ch_payment_return_sepa',
                                              'test_files',
                                              'pain002p-rejected.xml')
 

@@ -14,5 +14,11 @@
         "l10n_ch_base_bank",
         "account_banking_sepa_credit_transfer",
     ],
+    'data': [
+        'data/payment_type.xml',
+    ],
+    'demo': [
+        'demo/ct_demo.yml'
+    ],
     'installable': True,
 }
