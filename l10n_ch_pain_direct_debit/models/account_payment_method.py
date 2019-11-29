@@ -9,7 +9,7 @@ class AccountPaymentMethod(models.Model):
 
     pain_version = fields.Selection(selection_add=[
         ('pain.008.001.02.ch.03',
-         'pain.008.001.02.ch.03 (XML Direct Debit)'),
+         'pain.008.001.02.ch.03 (direct debit in Switzerland)'),
         ])
 
     @api.multi
