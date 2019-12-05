@@ -48,7 +48,7 @@
 -
   !record {model: res.partner.bank, id: company_bank_post_xml_dd, view: False}:
     acc_type: 'postal'
-    acc_number: 'CH61 0900 0000 1248 2495 3'
+    acc_number: 'CH07 0900 0000 1731 2562 0'
     partner_id: base.main_partner
     bank_id: bank_post
 
