@@ -77,3 +77,4 @@
     active: True
     payment_method_id: export_sepa_dd
     payment_order_ok: True
+    group_lines: False
